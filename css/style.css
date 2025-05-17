@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background-color: #1e1e1e;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 100%;
+  z-index: 2;
+}
+
+header,
+nav,
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 2;
+}
+
+ul {
+  margin: 2rem;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  margin-right: 2rem;
+  list-style: none;
+  
+}
+
+footer {
+  text-align: center;
+}
+
+form textarea {
+  margin: 0 auto;
+  display: flex;
+}
+
+form input {
+  margin: 0 auto;
+}
+
+form input,
+form textarea {
+  display: flex;
+  width: 60%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #c2c1c1;
+  color: #000000;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 60%;
+}
+
+form button:hover {
+  background-color: #c3f397;
+}
+
+.formulario {
+  position: relative;
+  top: 10rem;
+}
+
+.formulario h2 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 2.4rem;
+  color: white;
+}
+.linha {
+  position: relative;
+  background-color: white;
+  width: 90%;
+  height: 0.2rem;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.linha2 {
+  position: relative;
+  background-color: white;
+  width: 90%;
+  height: 0.1rem;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+#geralDelivery a img {
+  width: 10rem;
+}
+
+#logoMenu {
+  width: 5rem;
+  z-index: 1;
+}
+
+#logo {
+  z-index: 1;
+}
+
+.itemMenu {
+  color: white;
+}
+
+.itemh2 {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#formas {
+  z-index: 0;
+  display: flex;
+  max-width: 100%;
+}
+
+#endereco {
+  position: relative;
+  color: white;
+  top: 30rem;
+
+}
+
+#retanguloVermelho {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 30rem;
+  background-color: red;
+  top: 0;
+  z-index: 0;
+  border-radius: 0 0 25% 25%;
+}
+
+#retanguloBranco {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 30rem;
+  background-color: white;
+  top: 1rem;
+  z-index: 0;
+  border-radius: 0 0 25% 25%;
+}
+
+
+body #imagemFundo #imagemFundo1 {
+  position: absolute;
+  margin: 0 auto;
+  width:100%;
+  height: 30rem;
+  top: 0;
+  z-index: 1;
+  border-radius: 0 0 25% 25%;
+  opacity: 0.5;
+}
+
+#hamburguer1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  top: 5rem;
+  position: relative;
+  width: 30em;
+}
+
+button {
+  padding: 20px 50px;
+}
+
+.fazerPedido {
+  z-index: 2;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  width: 15rem;
+  height: 4rem;
+  border-radius: 50px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  background: linear-gradient(162deg, rgba(72, 163, 100, 1) 9%, rgba(27, 61, 37, 1) 100%);
+  top: 5rem;
+}
+
+.fazerPedido:hover {
+  transform: scale(1.05);
+}
+
+#logoPrincipal {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#logo2 {
+  margin: 2rem;
+  width: 30rem;
+  margin: 0 auto;
+}
+
+#itensMenuDestaque {
+  display: flex;
+  justify-content: space-around;
+}
+
+#itensMenuDestaque img {
+ max-width: 80%;
+}
+
+.itemMenu1 {
+  width: 30%;
+  height: 60%;
+  background-color: red;
+  border-radius: 1em;
+}
+
+.itemMenu1 img {
+  height: 20%;
+  width: auto;
+}
+
+#itensMenuDestaque h2 {
+  text-align: center;
+  margin-top: 1rem;
+  color: white;
+}
+
+#itensMenuDestaque p {
+  text-align: left;
+  margin: 0.2rem 1rem;
+  color: white;
+  font-size: 1.2em;
+}
+
+#itensMenuDestaque a {
+  display: flex;
+  text-align: left;
+  margin: 0.2rem 1rem;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  margin-bottom: 2em;
+}
+
+#itensMenuDestaque a:hover {
+  color: rgb(45, 214, 54);
+}
+
+.itemMenu1 .linha2 {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+#circulo {
+  position: absolute;
+  margin-top: 3rem;
+  width: 100%;
+  height: 29rem;
+  background-color: red;
+  border-radius: 45% 45% 0 0;
+}
+
+.logoSocial {
+  position: relative;
+  width: 4rem;
+  top: 11rem;
+}
+
+.logoRede {
+  padding: 1rem;
+}
+
+#redesSociais {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* === RESPONSIVIDADE === */
+@media (max-width: 1024px) {
+  #itensMenuDestaque {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .itemMenu1 {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+
+  nav ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #logo2 {
+    width: 90%;
+  }
+
+  form input,
+  form textarea,
+  form button {
+    width: 90%;
+  }
+
+  #hamburguer1 {
+    width: 50%;
+    top: 12rem;
+  }
+
+  #logoPrincipal {
+    position: relative;
+    top: 8rem;
+  }
+
+  #itensMenuDestaque {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    top: 7rem;
+  }
+
+  #logoMenu {
+    width: 4rem;
+  }
+
+  #geralDelivery a img {
+    width: 10rem;
+  }
+
+  .fazerPedido {
+  z-index: 2;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  width: 15rem;
+  height: 4rem;
+  border-radius: 50px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  background: linear-gradient(162deg, rgba(72, 163, 100, 1) 9%, rgba(27, 61, 37, 1) 100%);
+  top: 12rem;
+}
+
+}
+
+@media (max-width: 600px) {
+  .formulario h2 {
+    font-size: 1.5rem;
+  }
+
+  #logoMenu {
+    width: 10rem;
+    margin: 1rem;
+  }
+
+  #hamburguer1 {
+    position: relative;
+    top: 15rem;
+  }
+
+  #logoPrincipal {
+    position: relative;
+    top: 10rem;
+  }
+
+  #itensMenuDestaque {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    top: 7rem;
+  }
+
+  #geralDelivery a img {
+    width: 150rem;
+    margin-right: 1rem;
+  }
+  .logoSocial {
+    width: 3rem;
+  }
+
+  .fazerPedido {
+  z-index: 2;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  width: 15rem;
+  height: 4rem;
+  border-radius: 50px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  background: linear-gradient(162deg, rgba(72, 163, 100, 1) 9%, rgba(27, 61, 37, 1) 100%);
+  top: 15rem;
+}
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Super Burguer</title>
+  </head>
+  <body>
+    <div id="imagemFundo">
+      <img src="img/imagem de fundo.png" alt="" id="imagemFundo1" />
+    </div>
+    <header>
+      <div id="logo">
+        <img
+          src="img/logo1.svg"
+          alt="logo do menu, um hambúrguer com uma coroa com o nome Burguer"
+          id="logoMenu"
+        />
+      </div>
+      <nav id="nav">
+        <ul>
+          <a href="#"><li class="itemMenu">INÍCIO</li></a>
+          <a href="#"><li class="itemMenu">MENÚ</li></a>
+          <a href="#"><li class="itemMenu">CONTATO</li></a>
+        </ul>
+        <div id="geralDelivery">
+          <a href="#"><img src="img/peça aqui seu!.png" alt="" /></a>
+        </div>
+      </nav>
+    </header>
+    <div class="linha"></div>
+
+    <div id="formas">
+      <div id="retanguloBranco"></div>
+      <div id="retanguloVermelho"></div>
+    </div>
+
+    <div id="hambúrguerPrincipal">
+      <img src="img/Hamburguer1.png" alt="" id="hamburguer1" />
+      <button class="fazerPedido">Fazer Pedido</button>
+    </div>
+
+    <div id="logoPrincipal">
+      <img src="img/logo 2.svg" alt="" id="logo2" />
+    </div>
+
+    <div id="itensMenuDestaque">
+      <div class="itemMenu1">
+        <a href="#" class="itemh2"><h2>Hello, Burguer!</h2></a>
+        <img src="img/Hamburguer2.png" alt="" />
+        <div class="linha2"></div>
+        <p>
+          Um super Hambúrguer com queijo, alface, tomate, molho especial de
+          baccon.
+        </p>
+        <a href="#">ver todos os ingredientes</a>
+      </div>
+      <div class="itemMenu1">
+        <a href="#" class="itemh2"><h2>CTRL + Beef</h2></a>
+        <img src="img/Hamburguer3.png" alt="" />
+        <div class="linha2"></div>
+        <p>Hambúrguer com carne suculenta e queijo cheddar derretido.</p>
+        <a href="#">ver todos os ingredientes</a>
+      </div>
+      <div class="itemMenu1">
+        <a href="#" class="itemh2"><h2>Commit & Cheese</h2></a>
+        <img src="img/Hamburguer4.png" alt="" />
+        <div class="linha2"></div>
+        <p>
+          Hambúrguer com queijo triplo, ideal pra quem “confirma” que ama
+          queijo.
+        </p>
+        <a href="#">ver todos os ingredientes</a>
+      </div>
+    </div>
+
+    <footer>
+      <div id="redesSociais">
+        <div class="logoRede">
+          <a href="#"
+            ><img
+              src="img/logo-facebook.svg"
+              alt="logo facebook"
+              class="logoSocial"
+          /></a>
+        </div>
+        <div class="logoRede">
+          <a href="#"
+            ><img
+              src="img/logo intagram.svg"
+              alt="logo instagram"
+              class="logoSocial"
+          /></a>
+        </div>
+        <div class="logoRede">
+          <a href="#"
+            ><img src="img/logo ifood.svg" alt="logo ifood" class="logoSocial"
+          /></a>
+        </div>
+      </div>
+      <div>
+        <div id="circulo"></div>
+      </div>
+      <p id="endereco">
+        <b>Endereço:</b> Av. Alan Turing, n°0101 - Próximo ao Shopping Babbage
+      </p>
+
+      <div class="formulario">
+        <h2>Fale Conosco</h2>
+        <form
+          action="mailto:contato@example.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <input type="text" name="nome" placeholder="Seu Nome" required />
+          <input type="email" name="email" placeholder="Seu e-mail" required />
+          <input type="tel" name="telefone" placeholder="Seu telefone" />
+          <textarea
+            name="mensagem"
+            placeholder="Digite sua mensagem"
+            required
+          ></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
